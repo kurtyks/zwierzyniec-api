@@ -33,8 +33,6 @@ export class PetsService {
     return await this.petModel
       .findOneAndUpdate({ _id: id }, { $set: updatePetDto }, { new: true })
       .exec();
-
-    // console.log(this.logPrefix, updatedPet);
   }
 
   async remove(id: string) {
