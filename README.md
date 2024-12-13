@@ -24,6 +24,9 @@ $ npm install
 $ npm run test
 ```
 
+<p>Testy jednostkowe są skonfigurowane w pliku src/pets/pets.controller.spec.ts</p>
+<p>Dotyczą tylko controllera i obejmują: tworzenie, update i delete peta. Są izolowane, nie odkładają danych w db</p>
+
 ## Uruchomienie aplikacji
 
 ```bash
