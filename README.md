@@ -30,11 +30,16 @@ $ npm run test
 $ npm run start
 ```
 
+## Swagger
+
+<p> {{API_URL}}/api </p>
+<p> Swagger delikatnie mówiąc "ma braki"</p>
+
 ## Uwaga
 
 <p>
 Do działania aplikacji niezbędne jest dodanie pliku .env 
-Plik powinien zawierać MONGO_URI="{your mongo_uri}" niezbędne do połączenia z bazą danych  
+Plik powinien zawierać MONGO_URI="{your mongo_uri}", niezbędne do połączenia z bazą danych  
 </p>
 
 ## License
